@@ -1,5 +1,7 @@
 # in python def is used to define the function and give it a name
-def print_something():
+greetings = input("What is your name ")
+def print_greetings():
 # Python interpreter recognises intendation is key
-    print("Hello World")
-print_something()
+
+    print("Welcome on board dear " + greetings)
+print_greetings()
